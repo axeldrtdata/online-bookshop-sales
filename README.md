@@ -10,7 +10,7 @@ An online bookshop shared two years of sales data (March 2021 to February 2023) 
 
 ## Key results
 
-- **Revenue is stable and seasonal**: €5.57M in year 1, €5.58M in year 2, with dips in summer and peaks at the start of the school year and before the holidays.
+- **Revenue is stable and seasonal**: €5.57M in year 1, €5.58M in year 2, with dips in July and November 2021 and peaks in October 2021 and February 2022.
 - **The catalogue is unbalanced**: the entry-level category makes up 70% of references but only 37% of revenue; 21.5% of references generate 80% of revenue.
 - **The customer base is broad**: 52% of customers generate 80% of revenue (Gini index 0.40). Four B2B customers were analysed separately (7.35% of total revenue).
 - **One strong correlation**: the younger the customer, the larger the average basket (Spearman ρ = −0.70). Age also separates the categories (median age 25 for premium, 43 for entry level, 57 for mid-range).
@@ -52,7 +52,7 @@ Open the folder in VS Code (with the Python and Jupyter extensions) and run the 
 ## Limitations
 
 - **Correlation is not causation**: age is linked to basket size, but the data does not explain why.
-- **Age is approximate**, computed as 2023 minus the year of birth.
+- **One category per customer**: for the category tests, each customer is summed up by the category they buy most, which hides customers who buy across several categories.
 - **The ±0.25 threshold** used to call a correlation meaningful is a convention; other cut-offs would not change the one strong result.
 
 ## Stack
